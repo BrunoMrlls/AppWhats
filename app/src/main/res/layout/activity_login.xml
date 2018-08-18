@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.iza.bruno.appwhats.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/larguraLogo"
+        android:layout_height="@dimen/alturaLogo"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/logo"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/idEdtNome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/digiteSeuNome"
+        android:inputType="textPersonName"
+        android:textColor="@color/textPrimary"
+        android:textColorHint="@color/txtHintColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/idEdtNumTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/txtHintTel"
+        android:imeOptions="actionGo"
+        android:inputType="phone"
+        android:textColor="@color/textPrimary"
+        android:textColorHint="@color/txtHintColor"
+        app:layout_constraintEnd_toEndOf="@+id/idEdtNome"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/idEdtNome"
+        app:layout_constraintTop_toBottomOf="@+id/idEdtNome" />
+
+    <EditText
+        android:id="@+id/idEdtCodArea"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/txtCodArea"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:textColor="@color/textPrimary"
+        android:textColorHint="@color/txtHintColor"
+        app:layout_constraintEnd_toStartOf="@+id/idEdtNumTel"
+        app:layout_constraintStart_toEndOf="@+id/idEdtCodPais"
+        app:layout_constraintTop_toBottomOf="@+id/idEdtNome" />
+
+    <EditText
+        android:id="@+id/idEdtCodPais"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:text="@string/txtCodPais"
+        android:textColor="@color/textPrimary"
+        android:textColorHint="@color/txtHintColor"
+        app:layout_constraintStart_toStartOf="@+id/idEdtNome"
+        app:layout_constraintTop_toBottomOf="@+id/idEdtNome" />
+
+    <Button
+        android:id="@+id/idBtnEntrar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="1dp"
+        android:text="@string/txtEntrar"
+        android:textColor="@color/textPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idEdtNumTel" />
+</android.support.constraint.ConstraintLayout>

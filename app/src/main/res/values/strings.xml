@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AppWhats</string>
+    <string name="digiteSeuNome">Digite seu nome</string>
+    <string name="txtEntrar">Cadastrar</string>
+    <string name="txtValidacao">Validação</string>
+    <string name="txtAvisoSMS">Voce recebeu um SMS para validaçao do seu numero, digite o codigo de validaçao abaixo:</string>
+    <string name="txtDigiteCodigo">Digite o Codigo!</string>
+    <string name="txtValidar">Validar</string>
+    <string name="txtCodPais">+55</string>
+    <string name="txtCodArea">91</string>
+    <string name="txtHintTel">9 8239 2843</string>
+    <string name="digite_seu_email">Digite seu E-mail</string>
+    <string name="digite_sua_senha">Digite sua senha</string>
+    <string name="Autenticar">Autenticar</string>
+    <string name="ainda_nao_tem_conta_cadastrese">Ainda nao tem conta? Cadastre-se</string>
+    <string name="title_activity_cadastro_usuario">Cadastrar Usuario</string>
+    <string name="cadastro_usuario">Cadastro de usuario</string>
+    <string name="digite_seu_nome">Digite seu nome</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="sair">Sair</string>
+    <string name="configuracoes">Configuraçoes</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="procurar">Procurar</string>
+</resources>
